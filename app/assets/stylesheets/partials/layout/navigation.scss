@@ -1,3 +1,7 @@
+body {
+  margin-top: 50px;
+}
+
 nav {
   .navbar-header {
     width: 100%;
@@ -14,7 +18,7 @@ nav {
 }
 
 .navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
-  // background: $navbarColor !important;
+  background: black !important;     // $navbarColor - file is not importing
   border: none;
   a {
     color: white !important;
