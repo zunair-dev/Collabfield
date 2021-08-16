@@ -9,6 +9,8 @@ gem 'rails', '~> 6.1.4'
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
+
+gem 'faker'
 # gem devise for authentication
 gem 'devise'
 # bootstrap form
