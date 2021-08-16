@@ -20,3 +20,5 @@ module Collabfield
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+
+config.action_controller.include_all_helpers = false

@@ -47,7 +47,7 @@ nav {
   }
   a:hover {
     background: white !important;
-    color: black !important;          // $navbarColor
+    color: black !important;
     i {
       color: black;
     }
@@ -55,20 +55,20 @@ nav {
 }
 
 .icon-bar {
-  background-color: white !important;
+  background-color: black !important;
 }
 
 .active a {
-  background: black !important;
+  background: white !important;   // $navbarColor
   border-bottom: solid 5px white;
 }
 
 .dropdown-toggle, .dropdown-menu {
-  background: black !important;     // $navbarColor
+  background: black !important;   // $navbarColor
   border: none;
 }
 
 .dropdown-menu a:hover {
-  color: black !important;
+  color: white !important;
   background: white !important;
 }
