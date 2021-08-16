@@ -11,6 +11,8 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 # gem devise for authentication
 gem 'devise'
+# bootstrap form
+gem 'bootstrap_form'
 # Bootstrap 
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
