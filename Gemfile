@@ -10,6 +10,8 @@ gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 
+gem 'will_paginate', '~> 3.1.0'
+
 gem 'faker'
 # gem devise for authentication
 gem 'devise'
