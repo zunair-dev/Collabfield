@@ -17,6 +17,15 @@ Rails.application.routes.draw do
     end
   end
 
+  namespace :private do 
+    resources :conversations, only: [:create] do
+      member do
+        post :close
+      end
+    end
+    resources :messages, only: [:index, :create]
+  end
+
   root to: "pages#index"
   # root to: "devise/sessions#new"
 
