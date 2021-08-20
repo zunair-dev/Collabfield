@@ -22,9 +22,6 @@ module Private::MessagesHelper
     message.seen == false ? 'unseen' : ''
   end
 
-  require 'shared/messages_helper'
-  include Shared::MessagesHelper
-
   def replace_link_to_private_messages_partial_path
     'private/messages/load_more_messages/window/replace_link_to_messages'
   end

@@ -22,6 +22,12 @@ class PostsController < ApplicationController
     end
   end
 
+  def add 
+    if user_signed_in?
+      @message_has_been_sent = conversation_exist?
+    end
+  end
+  
   def show
     @post = Post.find(params[:id])
   end
