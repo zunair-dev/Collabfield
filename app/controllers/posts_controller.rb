@@ -1,10 +1,6 @@
 class PostsController < ApplicationController
   before_action :redirect_if_not_signed_in, only: [:new]
   
-  if user_signed_in?
-    @message_has_been_sent = conversation_exist?
-  end
-
   def index
     @hobby_posts = Post.by_branch('hobby').limit(8)
     @study_posts = Post.by_branch('study').limit(8)
