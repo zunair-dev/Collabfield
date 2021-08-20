@@ -126,7 +126,7 @@ single-post-list {
 }
 
 .send-message-to-user {
-  background-color: $navbarColor;
+  background-color: black;    // $navbarColor
   padding: 10px;
   color: white;
   border-radius: 10px;
@@ -145,6 +145,6 @@ single-post-list {
   display: inline-block;
   border-radius: 10px;
   padding: 10px;
-  background-color: $navbarColor;
+  background-color: black;    // $navbarColor
   color: white;
 }
