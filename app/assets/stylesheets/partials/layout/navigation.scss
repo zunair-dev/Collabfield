@@ -1,5 +1,6 @@
 body {
   margin-top: 50px;
+  // background-color: red;
 }
 
 nav {
@@ -59,7 +60,7 @@ nav {
 }
 
 .active a {
-  background: white !important;   // $navbarColor
+  background: black !important;   // $navbarColor
   border-bottom: solid 5px white;
 }
 
@@ -70,5 +71,5 @@ nav {
 
 .dropdown-menu a:hover {
   color: white !important;
-  background: white !important;
+  background: black !important;
 }

@@ -12,6 +12,8 @@ gem 'puma', '~> 5.0'
 
 gem 'will_paginate', '~> 3.1.0'
 
+gem 'gon'
+
 gem 'faker'
 # gem devise for authentication
 gem 'devise'

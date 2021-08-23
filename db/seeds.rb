@@ -19,7 +19,6 @@ def seed_users
   end
 end
 
-
 def seed_categories
   hobby = ['Arts', 'Crafts', 'Sports', 'Sciences', 'Collecting', 'Reading', 'Other']
   study = ['Arts and Humanities', 'Physical Science and Engineering', 'Math and Logic',

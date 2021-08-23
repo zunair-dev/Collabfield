@@ -1,6 +1,8 @@
 module Private::MessagesHelper 
-  
+  require 'shared/messages_helper'
   def private_message_date_check(message, previous_message)
+    include Shared::MessagesHelper
+    
     if defined?(previous_message) && previous_message.present? 
       # if messages are not created at the same day
       if previous_message.created_at.to_date != message.created_at.to_date
